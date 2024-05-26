@@ -1,10 +1,14 @@
 package main
 
 import (
+	//general imports
 	"fmt"
 	"log"
 
+	//import for fiber
 	"github.com/gofiber/fiber/v2"
+
+	//imports for gorm and postgres db
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
